@@ -49,17 +49,29 @@
           "style": "powerline",
           "type": "node"
         },
-	{
-	  "type": "python",
-	  "style": "powerline",
-	  "powerline_symbol": "\uE0B0",
-	  "foreground": "#100e23",
-	  "background": "#906cff",
-	  "properties": {
-	    "template": " \uE235 {{ .Venv }} ",
-	    "display_default": false
-	  }
-	}
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#100e23",
+          "background": "#906cff",
+          "properties": {
+            "template": " \uE235 {{ .Venv }} ",
+            "display_default": false
+          }
+        },
+        {
+          "type": "spotify",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#000000",
+          "background": "#1BD760",
+          "properties": {
+            "playing_icon": "\uE602 ",
+            "paused_icon": "\uF8E3 ",
+            "stopped_icon": "\uF04D "
+          }
+        }
       ],
       "type": "prompt"
     }
